@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    font-family: 'Baloo Bhai',cursive;
+ 
+}
+ /* nav-bar   */
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    /* height: 20px; */
+    z-index: 10;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.navbar-nav a{
+    color: #ffff !important;
+    font-weight: 800;
+    font-style: initial;
+}
+.scroll{
+    opacity: .1;
+}
+.right{
+margin-left: 600px;
+}
+.left{
+    margin-left: 200px;
+}
+
+/* home  */
+.online{
+    margin-bottom: 30px;
+}
+.tables{
+    margin-left: 90px;
+    
+}
+.upper{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.d-block{
+    height: 300px;
+    width: 900px !important;
+    background-color: rgb(76, 76, 83);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.image{
+    margin-top: 30px;
+}
+.card-title{
+    text-align: left; 
+    color: rgb(119, 119, 220);
+}
+.card-text{
+    text-align: left;
+}
+.btn{
+    margin-left: 140px;
+    position: relative;
+}
+/* footer  */
+#fotter{
+    background-image: linear-gradient(to right, #292529, #b8a6c2); 
+    color: #fff;
+}
+
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.btn-primary{
+    background-image: linear-gradient(to right, #dd89dd, #8908d4); 
+    margin-top: 20px;
+
+}
+.call{
+    background-image: linear-gradient(to right, #403940, #ded2e4);
+    color: wheat;
+}
+.copywrite{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+hr{
+    color: #fff;
+}
+.stars{
+    margin-left: 140px;
+   /* margin-bottom: 5px;  */
+   position: relative;
+}
+.checked {
+    color: orange;
+  }
